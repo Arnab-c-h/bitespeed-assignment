@@ -1,0 +1,24 @@
+{
+	"name": "assignment",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx prisma generate",
+		"start": "node src/server.js",
+		"dev": "nodemon src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^17.3.1",
+		"express": "^5.2.1"
+	},
+	"devDependencies": {
+		"@prisma/client": "^6.19.0",
+		"nodemon": "^3.1.14",
+		"prisma": "^6.19.0"
+	}
+}
